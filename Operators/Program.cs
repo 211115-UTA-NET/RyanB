@@ -25,11 +25,11 @@ Console.WriteLine("n is not equal to 0, and g greater than 0"+And(n,g));
 Console.WriteLine("g is less than 0 or n is not equal to 0 "+Or(g, n));
         }
         public static int Increment(int num) { 
-            return num++;
+            return ++num;
             throw new NotImplementedException(); 
             }
         public static int Decrement(int num) { 
-            return num--;
+            return --num;
             throw new NotImplementedException(); 
             }
         public static bool Not(bool input) { 
