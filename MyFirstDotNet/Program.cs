@@ -28,5 +28,5 @@ Console.WriteLine("Type Your Name");
 Console.WriteLine("Welcome "+Console.ReadLine());
 
 for(int v = 1; v <= 50; v++){
-    Console.WriteLine(v)
+    Console.WriteLine(v);
 }
