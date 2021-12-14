@@ -2,21 +2,21 @@ using System;
 
 namespace AbstractClassesChallenge
 {
-     class Square : TwoDimensionalShape
+     class Circle : TwoDimensionalShape
     {
         // Implement your Square Class here.
-        public Square(double A) : base(A){
+        public Circle(double A) : base(A){
 
         }
 
         public override double SetArea()
         {
-            this.Area = Math.Pow(base.SizeOfSides,2);
+            this.Area = Math.PI * base.SizeOfSides;
         }
 
         public override string ToString()
         {
-            return string.Format("Square") + base.ToString();
+            return string.Format("Circle") + base.ToString();
         }
     }
 }

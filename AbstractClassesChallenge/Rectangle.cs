@@ -2,23 +2,27 @@ using System;
 
 namespace AbstractClassesChallenge
 {
-    public class Rectangle : Shape
+     class Rectangle : TwoDimensionalShape
     {
-        // private int side;
-        // private string name;
-        public Rectangle(int sides, string name){
-            // this.side = side;
-            // this.name = name;
-            NumSides = sides;
-            Name = name;
+        // Implement your Square Class here.
+        public Rectangle() {
+
         }
 
-        // Implement your Rectangle class here.
-        public override void SetArea(int NewArea){
-            // Name = "Rectangle";
-            // NumSides = 4
-            area = NewArea;
-            Console.log("This is for rectangle");
+        public override double SetArea()
+        {
+            Console.WriteLine("RECTANGLE: How Precise Is Your Length?");
+            double Length = Console.ReadLine();
+
+            Console.WriteLine("RECTANGLE: How Precise Is Your Width?");
+            double Width = Console.ReadLine();
+            this.Area = (Length*Width);
+            // this.Area
+        }
+
+        public override string ToString()
+        {
+            return string.Format("Rectangle") + base.ToString();
         }
     }
 }
