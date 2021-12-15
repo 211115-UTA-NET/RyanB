@@ -13,6 +13,11 @@ namespace DynamicShapes
         //     this.Area = Area;
         // }
         protected override abstract double Area{
+    // So im overriding a class member that is abstract
+            /*              ^^^^^^
+             class members that are incomplete and must 
+             be implemented in a derived class.
+            */
             // this.Area = Area;
             get;
         }

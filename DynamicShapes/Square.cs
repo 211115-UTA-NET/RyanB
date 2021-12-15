@@ -9,10 +9,6 @@ namespace DynamicShapes
             this.Name = "Square";
         }
 
-        // public override double SetArea()
-        // {
-        //     this.Area = Math.Pow(base.SizeOfSides,2);
-        // }
          protected override double Area
         {
             get{

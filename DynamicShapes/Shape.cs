@@ -9,6 +9,11 @@ namespace DynamicShapes
         protected double area;
         
         protected virtual double Area 
+        /*        ^^^^^^^
+        used to modify a method, property, indexer, or 
+        event declaration and allow for it to be overridden 
+        in a derived class.
+        */
         { 
             get
             {
@@ -24,41 +29,25 @@ namespace DynamicShapes
             // set;
             
         }
-        
-        // // Constructor
-        //    public Shape() : this(0)
-        // {
-        //     // this.Name = Name;
-        //     // this.Sides = Sides;
-        //     this.SizeOfSides = SizeOfSides;
-        // }
+
           public Shape(double SizeOfSides)
         {
-            // this.Name = Name;
-            // this.Sides = Sides;
             this.SizeOfSides = SizeOfSides;
+            //putting in this.Name = ... for individual shapes
         }
-        // public Shape(string Name, int NumSides) : this(Name, NumSides, 0){}
-        // public Shape(string Name, int NumSides, double Area)
-        // {
-        //     this.Name = Name;
-        //     this.NumSides = NumSides;
-        // }
+        // ^^This method returns the general information about the shape.
 
-        // This method returns the general information about the shape.
         public void GetInfo()
         {
             System.Console.WriteLine($"This {Name} has a area of {Area}");
         }
 
-        // This method returns the area of the shape
+        // ^^ This method returns the area of the shape
         public double GetArea()
         {
             return this.Area;
         }
         
-        // This method sets the Area of the shape
-        // public abstract double SetArea();
         public override abstract string ToString();
 
     }

@@ -4,15 +4,10 @@ namespace DynamicShapes
 {
      class Circle : TwoDimensionalShape
     {
-        // Implement your Square Class here.
         public Circle(double A) : base(A){
             this.Name = "Circle";
         }
 
-        // public override double SetArea()
-        // {
-        //     this.Area = Math.PI * base.SizeOfSides;
-        // }
         protected override double Area
         {
             get{

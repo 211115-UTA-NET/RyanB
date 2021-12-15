@@ -1,5 +1,0 @@
-/Users/kingbrooks/Desktop/github/RyanB/RockPaperScissors/RockPaperScissors.Tests/obj/Debug/net6.0/RockPaperScissorsApp.Tests.csproj.AssemblyReference.cache
-/Users/kingbrooks/Desktop/github/RyanB/RockPaperScissors/RockPaperScissors.Tests/obj/Debug/net6.0/RockPaperScissorsApp.Tests.GeneratedMSBuildEditorConfig.editorconfig
-/Users/kingbrooks/Desktop/github/RyanB/RockPaperScissors/RockPaperScissors.Tests/obj/Debug/net6.0/RockPaperScissorsApp.Tests.AssemblyInfoInputs.cache
-/Users/kingbrooks/Desktop/github/RyanB/RockPaperScissors/RockPaperScissors.Tests/obj/Debug/net6.0/RockPaperScissorsApp.Tests.AssemblyInfo.cs
-/Users/kingbrooks/Desktop/github/RyanB/RockPaperScissors/RockPaperScissors.Tests/obj/Debug/net6.0/RockPaperScissorsApp.Tests.csproj.CoreCompileInputs.cache

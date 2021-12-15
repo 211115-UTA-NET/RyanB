@@ -8,11 +8,6 @@ namespace DynamicShapes
         public Cube(double A) : base(A){
             this.Name = "Cube";
         }
-
-        // public override double SetArea()
-        // {
-        //     this.Area = 6 * Math.Pow(base.SizeOfSides,2);
-        // }
         protected override double Area
         {
             get{
